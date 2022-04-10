@@ -8,7 +8,7 @@ spec:
     image: gcr.io/kaniko-project/executor:latest
     args:
     - "--dockerfile=Dockerfile"
-    - "--context=git://github.com/chaitukon/kaniko-test.git"
+    - "--context=git://github.com//chaitukon/kaniko-test.git"
     - "--destination=shivaldap/kaniko-test-image:latest"
     volumeMounts:
     - name: kaniko-secret
